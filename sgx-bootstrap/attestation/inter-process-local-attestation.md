@@ -87,7 +87,7 @@ At the end of exchanging and processing of the three messages above, the two enc
 
 ### TODO
 
-1. The example has only integrated shared memory for passing data \(IPC\). Messages are demultiplexed using `sleep()`, e.g. Enclave2 `sleep(5)` to wait for message 2 after sending message 1 to Enclave1. A better approach \(e.g. message queue\) needs to be integrated to synchronize messages.
+1. The example has only integrated shared memory for passing data \(IPC\). Messages are demultiplexed using `sleep()` \(e.g. Enclave2 `sleep(5)` \) to wait for message 2 after sending message 1 to Enclave1. A better approach \(e.g. message queue\) needs to be integrated to synchronize messages.
 2. Need to remove extra enclaves and cleanup legacy code not related to inter-process local attestation. 
 
 
