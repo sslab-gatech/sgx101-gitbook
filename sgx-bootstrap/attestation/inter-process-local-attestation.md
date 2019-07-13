@@ -1,6 +1,6 @@
 ---
 description: >-
-  This page gives a simple example of how to perform local attestation between
+  This page gives a simple example on how to perform local attestation between
   two enclaves from different processes.
 ---
 
