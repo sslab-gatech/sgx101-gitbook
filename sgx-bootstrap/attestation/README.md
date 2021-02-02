@@ -193,7 +193,7 @@ For remote attestation, both symmetric and asymmetric key systems are used. The 
 
 #### There are mainly three platforms involved in Remote Attestation:
 
-* The service provide \(challenger\)
+* The service provider \(challenger\)
 * The application with its enclave and its QE
 * Intel Attestation Service \(IAS\) that verifies the enclave
 
