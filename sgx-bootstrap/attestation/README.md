@@ -309,7 +309,7 @@ Function `start()` calls NetworkManager’s `startService()` function, which cal
 
 It’s the ServiceProvider Application itself. Similar to the client’s application, it has its own message handler `VerificationManager` since it acts as the verifier in the remote attestation process. Inside the VerificationManager, it has a `NetworkManagerClient` which also inherits `NetworkManager` and is responsible for the SSL connection as well as serializing and sending messages.
 
-In addition, it has a `WebService` object to performs the verification phase with **Intel Attestation Service \(IAS\)** using the `QUOTE` sent from the client enclave. In one word, a `ServicePrivider` also acts as a wrapper of all the IAS requests and message processing, as well as any encryption key derivation, using `WebService`.
+In addition, it has a `WebService` object to performs the verification phase with **Intel Attestation Service \(IAS\)** using the `QUOTE` sent from the client enclave. In one word, a `ServiceProvider` also acts as a wrapper of all the IAS requests and message processing, as well as any encryption key derivation, using `WebService`.
 
 {% embed url="https://gist.github.com/sangfansh/dfa4b517e17cbc9030d0f09326b28698" %}
 
