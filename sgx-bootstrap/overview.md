@@ -30,7 +30,7 @@ In short, SGX architecture is a hardware-enforced security mechanism that requir
 
 Here, **TCB** will be the CPU’s package boundary and software components related to SGX.
 
-**Hardware Secrets** will be two 128-bit keys at production: Root Provisioning Key and Root Seal Key. Notice that RPK is known to Intel and RSK is not, therefore most of he derived key are based on RSK. We will discuss this later in the tutorial.
+**Hardware Secrets** will be two 128-bit keys at production: Root Provisioning Key and Root Seal Key. Notice that RPK is known to Intel and RSK is not, therefore most of the derived keys are based on RSK. We will discuss this later in the tutorial.
 
 **Remote Attestation** is enforced for the client to prove to the service provider that an enclave is running a given software, inside a given CPU, with a given security level, for a given Individual Software Vender \(ISV\). This is required before the service provider decides to provide requested secrets.
 
